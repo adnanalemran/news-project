@@ -3,11 +3,13 @@ import Header from "../sheard/header/Header";
 import Navbar from "../sheard/navbar/Navbar";
 import LeftSideNav from "../sheard/leftSideNav/LeftSideNav";
 import RightSideNav from "../sheard/rightSiteNav/RightSideNav";
+import BrakingNews from "./BrakingNews";
 
 const Home = () => {
   return (
     <div>
       <Header />
+      <BrakingNews/>
       <Navbar />
       <h2 className="font-poppins text-4xl font-bold">Home 1</h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
