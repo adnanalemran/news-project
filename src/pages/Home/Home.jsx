@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from '../sheard/header/Header';
+import Navbar from '../sheard/navbar/Navbar';
 
-const home = () => {
+const Home = () => {
     return (
         <div>
-            <h2>Home</h2>
+            <Header/>
+            <Navbar/>
+            <h2 className='font-poppins text-4xl font-bold'>Home 1</h2>
         </div>
     );
 };
 
-export default home;
+export default Home;

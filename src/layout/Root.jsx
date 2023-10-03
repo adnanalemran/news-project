@@ -1,12 +1,14 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../pages/sheard/navbar/Navbar";
 
  
 const Root = () => {
     return (
-        <div>
+        <div className="max-w-4xl mx-auto font-poppins">
+        
             <Outlet/>
         </div>
     );
 };
 
-export default Root;
+export default Root; 
